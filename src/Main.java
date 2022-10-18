@@ -20,3 +20,12 @@ public class Main {
         subchOneOne.print();
     }
 }
+// on run 
+//Subchapter: Subcapitolul 1.1
+//Paragraph: Paragraph 1
+//Paragraph: Paragraph 2
+//Paragraph: Paragraph 3
+//Paragraph: Paragraph 4
+//Paragraph: Paragraph 5
+//Image with name: Image 1
+//Table with Title: Table 1
