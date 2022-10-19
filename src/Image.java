@@ -1,4 +1,4 @@
-public class Image {
+public class Image implements Element {
     private final String img;
     public Image(String img) {
         this.img = img;
