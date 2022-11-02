@@ -1,19 +1,37 @@
-public class Paragraph implements Element{
-    private String text;
-
-    public Paragraph(String text) {
-        this.text = text;
+public class Paragraph implements Element {
+    public String name;
+    AlignStrategy x;
+    Paragraph(String name) {
+        this.name=name;
     }
+
+    public void setAlignStrategy(AlignStrategy strat){
+        this.x=strat;
+    }
+
     @Override
     public void print(){
-        System.out.println("Paragraph: "+ text);
+
+        if(x==null) {
+            System.out.println(this.name);
+        }else{
+            x.render(new Paragraph(this.name));
+        }
     }
 
-    public void add(Element e){
+    @Override
+    public void add(Element e) {
+
     }
-    public void remove(Element e){
+
+    @Override
+    public void remove(Element e) {
+
     }
-    public Element get(int index){
+
+    @Override
+    public Element get(int index) {
         return null;
     }
 }
+
