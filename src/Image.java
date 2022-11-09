@@ -14,6 +14,7 @@ public class Image implements Element {
     }
     @Override
     public void print() {
+
         System.out.println("Image with name: "+ url);
     }
     public void add(Element e){
@@ -21,6 +22,10 @@ public class Image implements Element {
     public void remove(Element e){
     }
     public Element get(int index){
+
         return null;
+    }
+    public void accept(Visitor v){
+        v.visitImage(this);
     }
 }

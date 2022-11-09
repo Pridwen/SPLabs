@@ -5,6 +5,7 @@ public class Subchapter {
     private final ArrayList<Element> elements = new ArrayList<>();
 
     public Subchapter(String name) {
+
         this.name = name;
     }
     public void print() {

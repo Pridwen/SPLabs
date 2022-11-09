@@ -4,6 +4,7 @@ public class Chapter {
     public String ch;
     public ArrayList<Subchapter> subChapters=new ArrayList<>();
     public Chapter(String ch) {
+
         this.ch = ch;
     }
     public void print(){
@@ -18,6 +19,7 @@ public class Chapter {
     }
     public Subchapter getSubChapter(int i)
     {
+
         return subChapters.get(i);
     }
 }

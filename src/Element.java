@@ -1,7 +1,8 @@
 public interface Element {
-    public void print();
-    public void add(Element e);
-    public void remove(Element e);
-    public Element get(int index);
+    void print();
+    void accept(Visitor v);
+    void add(Element e);
+    void remove(Element e);
+    Element get(int index);
 
 }

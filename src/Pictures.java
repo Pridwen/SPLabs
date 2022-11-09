@@ -1,8 +1,8 @@
 import java.awt.*;
 
 public interface Pictures {
-    public String url();
-//    public Dimension dim();
-//    public PictureContent content();
+    String url();
+    //Dimension dim();
+    //PictureContent content();
 
 }
