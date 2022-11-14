@@ -15,6 +15,6 @@ public class Main {
         cap1.add(new Table("Table 1"));
         BookStats stats = new BookStats();
         cap1.accept(stats);
-        stats.printStatistics();
+        stats.printStats();
     }
 }

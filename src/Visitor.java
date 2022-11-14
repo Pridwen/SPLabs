@@ -1,4 +1,4 @@
-public interface Visitor {
+public interface Visitor  {
     void visitBook(Book b);
     void visitSection (Section s);
     void visitTableContent (TableContent tc);

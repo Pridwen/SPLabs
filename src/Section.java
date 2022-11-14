@@ -11,7 +11,7 @@ public class Section implements Element{
     private final String title;
 
 
-    private final List<Element> elements = new ArrayList<>();
+    public final List<Element> elements = new ArrayList<>();
     public void print(){
         System.out.println(title);
         for(Element element: elements){
@@ -34,9 +34,6 @@ public class Section implements Element{
     public void accept(Visitor v){
 
         v.visitSection(this);
-    }
-
-    public void accept(BookStats stats) {
     }
 }
 

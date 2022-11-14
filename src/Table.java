@@ -5,8 +5,6 @@ public class Table implements Element{
 
         this.title = title;
     }
-
-
     @Override
     public void print(){
 
