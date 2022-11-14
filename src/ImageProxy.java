@@ -1,8 +1,7 @@
 import java.awt.*;
-import java.util.List;
 
 public class ImageProxy implements Pictures,Element {
-    private String url;
+    private final String url;
     private Dimension dim;
     private Image realImg;
 
@@ -37,6 +36,10 @@ public class ImageProxy implements Pictures,Element {
 
     @Override
     public Element get(int index) {
+
         return null;
+    }
+    public void accept(Visitor v){
+        v.visitImageProxy(this);
     }
 }

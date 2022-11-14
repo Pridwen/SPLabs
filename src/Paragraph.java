@@ -2,10 +2,12 @@ public class Paragraph implements Element {
     public String name;
     AlignStrategy x;
     Paragraph(String name) {
+
         this.name=name;
     }
 
     public void setAlignStrategy(AlignStrategy strat){
+
         this.x=strat;
     }
 
@@ -31,7 +33,11 @@ public class Paragraph implements Element {
 
     @Override
     public Element get(int index) {
+
         return null;
+    }
+    public void accept(Visitor v){
+        v.visitParagraph(this);
     }
 }
 
