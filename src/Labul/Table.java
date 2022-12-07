@@ -1,3 +1,5 @@
+package Labul;
+
 public class Table implements Element{
     private final String title;
 
@@ -8,7 +10,7 @@ public class Table implements Element{
     @Override
     public void print(){
 
-        System.out.println("Table with Title: "+title);
+        System.out.println("Labul.Table with Title: "+title);
     }
 
     public void add(Element e){

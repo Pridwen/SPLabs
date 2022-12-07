@@ -1,3 +1,5 @@
+package Labul;
+
 public class AlignRight implements AlignStrategy {
     Paragraph par;
 

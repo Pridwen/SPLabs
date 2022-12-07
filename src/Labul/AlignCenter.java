@@ -1,3 +1,5 @@
+package Labul;
+
 public class AlignCenter implements AlignStrategy {
     Paragraph par;
     @Override

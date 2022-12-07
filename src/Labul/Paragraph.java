@@ -1,3 +1,5 @@
+package Labul;
+
 public class Paragraph implements Element {
     public String name;
     AlignStrategy x;

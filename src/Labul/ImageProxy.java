@@ -1,3 +1,5 @@
+package Labul;
+
 import java.awt.*;
 
 public class ImageProxy implements Pictures,Element {

@@ -1,3 +1,5 @@
+package Labul;
+
 public class Author {
     private final String author;
 
@@ -8,6 +10,6 @@ public class Author {
 
     public void print(){
 
-        System.out.println("Author: "+ author);
+        System.out.println("Labul.Author: "+ author);
     }
 }

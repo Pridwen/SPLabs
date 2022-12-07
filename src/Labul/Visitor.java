@@ -1,3 +1,5 @@
+package Labul;
+
 public interface Visitor  {
     void visitBook(Book b);
     void visitSection (Section s);
